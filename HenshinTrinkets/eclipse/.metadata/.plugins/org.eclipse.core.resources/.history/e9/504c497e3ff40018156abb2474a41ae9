@@ -1,0 +1,10 @@
+package com.AtoptheSixthWHall.HenshinTrinkets;
+
+public class Reference {
+public String ModID = "HenshinTrinkets";
+public String ModName = "Boom244's Henshin Trinkets";
+public String Version = "1.0";
+public String Dependencies = "required-after:armourersWorkshop";
+public String AcceptedMinecraftVersions = "1.7.10";
+	
+}

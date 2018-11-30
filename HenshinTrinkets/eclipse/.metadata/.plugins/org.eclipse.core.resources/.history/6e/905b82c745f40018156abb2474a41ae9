@@ -1,0 +1,30 @@
+package com.AtoptheSixthWHall.HenshinTrinkets;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraft.item.Item;
+
+@Mod(modid = Reference.ModID, version = Reference.Version, name = Reference.ModName, dependencies = Reference.Dependencies )
+public class ModClass {
+
+	public static Item itemHenshin;
+	
+	@EventHandler
+	public void PreInit(FMLPreInitializationEvent event)
+	{
+		//For initializing Blocks and Items
+		itemHenshin = new ItemHenshin();
+		//Config Handling!
+	}
+	@EventHandler
+	public void Init(FMLInitializationEvent event) {
+		//Proxy, Tile, Entities, GUI and PacketHandling
+		
+	}
+	@EventHandler
+	public void PostInit(FMLPostInitializationEvent event) {
+		
+	}
+}

@@ -1,0 +1,8 @@
+package com.AtoptheSixthWHall.HenshinTrinkets;
+import com.AtoptheSixthWHall.HenshinTrinkets.Reference;
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid = Reference.ModID, version = Reference.Version, name = Reference.ModName, dependencies = Reference.Dependencies )
+public class ModClass {
+
+}
